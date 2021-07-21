@@ -39,7 +39,7 @@ def callback():
 def handle_message(event):
     rp = event.message.text
     if '貼圖' in rp:
-        StickerSendMessage(
+        sticker_message = StickerSendMessage(
             package_id='1',
             sticker_id='1'
         )
