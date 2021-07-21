@@ -40,8 +40,8 @@ def handle_message(event):
     rp = event.message.text
     if 'sticker' in rp:
         sticker_message = StickerSendMessage(
-            package_id='1',
-            sticker_id='1'
+            package_id='6359',
+            sticker_id='11069849'
         )
     else:
         line_bot_api.reply_message(
